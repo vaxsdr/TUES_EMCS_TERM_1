@@ -16,44 +16,45 @@ void setup() {
 
 void loop() {
   // Purple (Red + Blue)
-  analogWrite(PIN_RED, 230);    // Red at full brightness
-  analogWrite(PIN_GREEN, 0);    // Green off
-  analogWrite(PIN_BLUE, 255);   // Blue at full brightness
+  analogWrite(PIN_RED, 230);     
+  analogWrite(PIN_GREEN, 0);    
+  analogWrite(PIN_BLUE, 255);   
   delay(500);
 
-  // Pink (More red, less blue)
+  // Rozovo
   analogWrite(PIN_RED, 255);    // Red at full brightness
   analogWrite(PIN_GREEN, 0);    // Green off
   analogWrite(PIN_BLUE, 30);   // Blue at a lower brightness
   delay(500);
 
-  // Dark Blue (Only Blue)
-  analogWrite(PIN_RED, 0);      // Red off
-  analogWrite(PIN_GREEN, 0);    // Green off
-  analogWrite(PIN_BLUE, 100);   // Dark blue (low brightness)
+  // Dark Blue 
+  analogWrite(PIN_RED, 0);      
+  analogWrite(PIN_GREEN, 0);    
+  analogWrite(PIN_BLUE, 100);   // za da stane Dark blue trqbva da e na low brightness
   delay(500);
 
-  analogWrite(PIN_RED, 0);      // Red off
-  analogWrite(PIN_GREEN, 255);    // Green off
-  analogWrite(PIN_BLUE, 0);   // Dark blue (low brightness)
+  // zeleno za da vidq razlikata s jultoto
+  analogWrite(PIN_RED, 0);     
+  analogWrite(PIN_GREEN, 255);  
+  analogWrite(PIN_BLUE, 0);   
   delay(500);
 
   // Julto
-  analogWrite(PIN_RED, 255);    // Red at full brightness
-  analogWrite(PIN_GREEN, 50);  // Green at full brightness
-  analogWrite(PIN_BLUE, 0);   // Blue at full brightness
+  analogWrite(PIN_RED, 255); 
+  analogWrite(PIN_GREEN, 50); 
+  analogWrite(PIN_BLUE, 0); 
   delay(500);
 
 // svetlo rozovo
-  analogWrite(PIN_RED, 255);    // Red at full brightness
-  analogWrite(PIN_GREEN, 20);  // Green at full brightness
-  analogWrite(PIN_BLUE, 30);   // Blue at full brightness
+  analogWrite(PIN_RED, 255);   
+  analogWrite(PIN_GREEN, 20); 
+  analogWrite(PIN_BLUE, 30); 
   delay(500);
 
 // cinyo??????
-   analogWrite(PIN_RED, 0);    // Red at full brightness
-  analogWrite(PIN_GREEN, 255);  // Green at full brightness
-  analogWrite(PIN_BLUE, 150);   // Blue at full brightness
+   analogWrite(PIN_RED, 0);   
+  analogWrite(PIN_GREEN, 255);  
+  analogWrite(PIN_BLUE, 150);    
   delay(500);
 
 
